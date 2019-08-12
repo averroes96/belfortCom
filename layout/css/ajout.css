@@ -1,0 +1,129 @@
+body {
+  font-family: sans-serif;
+}
+
+.input-container2 {
+  max-width: 300px;
+  background-color: #EDEDED;
+  border: 1px solid #DFDFDF;
+  border-radius: 5px;
+    overflow: hidden    
+}
+
+input[type='file'] {
+  display: none;
+}
+
+.file-info {
+  font-size: 0.9em;
+
+}
+
+.browse-btn, .browse-btn1, .browse-btn2, .browse-btn3 {
+  background: #03A595;
+  color: #fff;
+  min-height: 35px;
+  padding: 10px;
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+    cursor: pointer
+}
+
+.browse-btn:hover,.browse-btn1:hover, .browse-btn2:hover, .browse-btn3:hover {
+  background: #4ec0b4;
+}
+
+@media (max-width: 300px) {
+  button {
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 0;
+  }
+  
+  .file-info {
+    display: block;
+    margin: 10px 5px;
+  }
+}
+
+
+
+
+
+
+/* The alert message box */
+.alert-msg {
+  padding: 20px;
+  background-color: #f44336; /* Red */
+  color: white;
+  margin-bottom: 15px;
+}
+
+.success-msg {
+  padding: 20px;
+  background-color: #4CAF50; /* Red */
+  color: white;
+  margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}
+
+
+
+
+
+
+/* The Modal (background) */
+.preview {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.preview-content {
+  background-color: #fefefe;
+  margin: 10% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close-btn {
+  color: white;
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+    cursor: pointer
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}

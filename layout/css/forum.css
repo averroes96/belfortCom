@@ -1,0 +1,51 @@
+.cat {
+    
+    padding: 15px;
+    position: relative;
+    overflow: hidden
+}
+
+.cat .hidden-buttons a{
+    
+    margin-right: 5px;
+    
+}
+
+.cat:hover{
+    
+    background-color: #EEEFFF;
+    
+}
+
+.cat:hover .hidden-buttons{
+    
+    right: 10px;
+}
+
+.cat .hidden-buttons{
+    
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    position: absolute;
+    top: 15px;
+    right: -200px;
+
+}
+
+.cat h3 {
+    
+    cursor: pointer;
+    
+}
+
+.cat .full-view p{
+    
+    margin: 10px 0;
+    color: #707070
+}
+
+.cat .full-view {
+    
+    display: none
+}

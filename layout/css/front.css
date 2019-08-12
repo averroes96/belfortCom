@@ -1,0 +1,853 @@
+/* Main rules */
+
+
+
+body{
+    
+    background-color: #EEEFFF ;
+}
+
+.homepage {
+    
+    
+    background-image: url("../images/adult-analysis-business-1493375.jpg");
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.control-label {
+    padding: 5px;
+    width: 130px;
+    color: floralwhite;
+    text-align: left;
+}
+
+select, option {
+    
+    cursor: pointer
+}
+
+
+.desc {
+    
+    min-height: 100px;
+    padding: 2px 2px;
+}
+
+.panel {
+    
+    border: none;
+    border-radius: 10px;
+    max-width: 800px;
+    color: #8A89C0;
+    font-weight: 600;
+    
+}
+
+.alert {
+    
+    border: none;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.alert-comment {
+    
+    color: #54c6eb;
+}
+
+.fa {
+    
+    margin-right: 5px;
+}
+
+.img-thumbnail {
+    
+    padding: 0;
+}
+
+/************************************* SIDE NAVIGATOR BAR ***************************************************/
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: floralwhite;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: darkcyan;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0px;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/******************************************** HOMEPAGE ********************************************/
+
+
+
+/* Login form */
+
+
+
+.navbar-header .navbar-brand:hover{
+    
+    color:dodgerblue;
+    
+}
+
+.navbar .collapse ul li a:hover{
+    
+    background-color:darkcyan;
+    color: floralwhite;
+    
+}
+
+.navbar .collapse ul li .dropdown-toggle:active{
+    
+    background-color:darkcyan;
+    color: floralwhite 
+    
+}
+
+.dropdown-menu {
+    
+    max-width: 180px;
+    padding: 0;
+    font-size: 1em;
+    border: none;
+    border-radius: 0;
+    background-color:dimgrey
+        
+    
+}
+
+.dropdown-menu > li > a {
+    
+    color: #FFF;
+    padding: 10px 15px;
+    
+}
+
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover{
+    
+    color: aqua;
+    background-color:#000
+    
+}
+
+.navbar-collapse .navbar-nav > li > a:hover{
+    
+    color:aqua;
+
+}
+
+
+
+/* Members page */
+
+h1{
+    font-size: 55px;
+    margin: 40px 0;
+    font-weight: bold;
+    color:#CDA2AB;
+ 
+}
+
+.profile-img {
+    
+    width: 100px;
+    height: 90px;
+}
+
+h1 .profile-title {
+    
+    display: block
+}
+
+.image-upload > input
+{
+    display: none;
+}
+
+.image-upload img
+{
+    width: 85px;
+    cursor: pointer;
+    border-radius: 50%;
+    height: 80px
+}
+
+.input-container {
+    
+    position: relative
+}
+
+.asterisk {
+    
+    font-size: 20px;
+    position: absolute;
+    right: 7px;
+    top: 8px;
+    color:crimson
+}
+
+.show-pass{
+    
+    position: absolute;
+    top: 17px;
+    right: -5px;
+    color:azure;
+    cursor:pointer
+}
+
+/* manage */
+
+.table-responsive{
+    background-color:#8A89C0;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    
+    
+}
+
+.main-table{
+    
+   -webkit-box-shadow: 0 5px 10px #CCC;
+   -moz-box-shadow: 0 5px 10px #CCC;
+    box-shadow: 0 5px 10px #CCC;
+    
+    
+}
+
+.main-table td {
+    
+    background-color:rgba(238, 238, 238, 1);
+    vertical-align: middle !important;
+    font-weight: bold;
+    color:dimgrey
+    
+    
+}
+
+.main-table tr:first-child td {
+    
+    background-color:rgba(18, 43, 64, 1);
+    color: #FFF;
+    font-weight: bolder;
+    border-radius: 3px;
+
+}
+
+.main-table .btn{
+    
+    padding: 3px 10px;
+    min-width: 134px;
+    margin: 5px;
+
+}
+
+.activate {
+    
+    margin-left: 5px
+}
+
+.main-table .btn .fa{
+    
+    margin: 2px;
+    position: relative;
+    right: 1px;
+    
+}
+
+.table-responsive .btn-primary{
+    
+    background-color: #048A81;
+    border-color: darkcyan ;
+    margin-top: 5px;
+    
+}
+
+.table-responsive .btn-primary:hover{
+    
+    background-color:darkcyan;
+    border-color:#048A81
+}
+
+
+/* edit */
+
+form{
+    
+    padding: 12px;
+    border-radius: 5px;
+    
+}
+
+.add-ad{
+    
+    background-color: #06d6a0;
+    padding: 12px;
+    border-radius: 5px;
+    
+}
+
+.form-group {
+    margin-bottom: 10px;
+    
+}
+
+.form-horizontal .control-label {
+    
+    text-align: left;
+    margin-left: 15px;;
+    
+}
+
+.form-horizontal .form-group-lg .control-label {
+    font-size: 14px;
+}
+
+ul{
+    
+    list-style-type: none
+}
+
+
+.img-container img {
+    
+    max-height: 200px;
+    min-height: 200px;
+    min-width: 100%;
+}
+
+
+/* Categories PAGE */
+
+.item-box {
+    
+    padding: 5px;
+}
+
+.item-box .price-tag {
+    
+    background-color: #06D6A0;
+    padding: 6px;
+    position: absolute;
+    left: 15px;
+    top: 50px;
+    color: floralwhite;
+    border-radius: 5px;
+    
+}
+
+
+.preview .item-box .price-tag {
+
+    position: absolute;
+    left: 15px;
+    top: 60px;
+    
+}
+
+.item-panel {
+    
+    margin-bottom: 10px;
+}
+
+.item-panel> .panel-heading {
+    
+    background-color: #06d6a0 !important;
+    border-color: #06d6a0 !important;
+}
+
+.item-panel> .panel-footer {
+    
+    background-color: #06d6a0;
+    color: floralwhite;
+    min-height: 70px;
+    
+}
+
+.item-panel a {
+    
+    color: floralwhite
+}
+
+.full-details {
+    
+    display: none;
+}
+
+
+
+
+.upper-bar {
+    
+    padding: 5px;
+    background-color: darkcyan;
+    
+}
+
+.upper-bar .log-sign {
+    
+    padding: 10px !important;
+    background-color: rgba(0,0,0,.5);
+    border-radius: 10px;
+    color: floralwhite;
+    font-weight: 700;
+    margin: 3px
+    
+}
+
+.upper-bar .log-sign:hover {
+    background-color: floralwhite !important;
+    color: darkcyan !important;
+}
+
+
+.upper-bar .dropdown-toggle:hover, .upper-bar .dropdown-toggle:active {
+    background-color: floralwhite;
+    color: darkcyan;
+}
+
+.upper-bar .nav a {
+    
+    background-color: rgba(255,255,255,.15);
+    color: floralwhite;
+    font-weight: 700;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    max-width: 65px;
+}
+
+.upper-bar .nav a:hover {
+    
+    background-color: rgba(0,0,0,.5);
+    
+}
+
+
+.upper-bar .account , .upper-bar .new-ad{
+
+    background-color: rgba(255,255,255,.15);
+    color: floralwhite;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+.upper-bar .account:hover, .upper-bar .new-ad:hover, .upper-bar .account:focus, .upper-bar .new-ad:focus {
+    
+    border-color: forestgreen;
+    background-color: rgba(0,0,0,.5);    
+}
+
+.upper-bar .account .user-name, .upper-bar .new-ad a  {
+    
+    color: floralwhite;
+    border: none;
+    font-weight: 700;
+    border-radius: 0;
+        
+}
+
+.upper-bar .new-ad {
+    
+    margin-left: 3px;
+}
+
+
+
+
+.upper-bar .my-img {
+    
+    width: 32px;
+    height: 32px;
+}
+
+.forms form, .errors {
+    
+    max-width: 350px;
+    margin: auto;
+}
+
+.errors {
+    
+    margin-top: 10px;
+}
+
+.forms form input {
+    
+    margin-bottom: 10px;
+    background-color: rgb(238, 239, 255);
+}
+
+.forms .active {
+    
+    background-color: teal;
+    padding: 10px;
+    border-radius: 10px;
+    color: floralwhite
+}
+
+.forms h1 {
+
+    font-size: x-large;
+    
+}
+
+.forms h1 span {
+    
+    cursor: pointer
+}
+
+.signup {
+    
+    display: none
+    
+}
+
+/* PROFILE */
+
+.block {
+    
+    margin: 20px 0 0;
+    
+}
+
+.information .panel-heading {
+    
+    background-color: #048A81
+    
+}
+
+.information ul {
+    padding: 0;
+    margin: 0
+    
+}
+
+.information ul li {
+    
+    padding: 10px;
+    border-radius: 5px;
+    color: #048A81;
+    margin-top: 5px;
+    
+}
+
+.information ul li .fa {
+    
+    color: #048A81;
+}
+.information ul li span {
+    
+    display: inline-block;
+    width: 130px;
+    font-size: 12px;
+}
+
+.information .btn-default {
+    
+    color: floralwhite;
+    background-color: #048a81;
+    border-color: #048a81;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-left: 10px;
+
+}
+
+.information .btn-default:hover{
+    
+    color: floralwhite;
+    background-color: #048a81;
+    border-color: #048a81;
+    
+}
+
+.my-ads .panel-heading {
+    
+    background-color: #06D6A0
+    
+}
+.my-ads .asterisk {
+    right: 25px;
+    top: 13px;
+}
+
+.my-comments .panel-heading {
+    
+    background-color: #54C6EB
+    
+}
+
+.thumbnail .caption {
+    
+    background-color: #06D6A0;
+    color: floralwhite;
+    
+}
+
+.thumbnail .add-date{
+    
+    font-size: 10px;
+    text-align: left;
+    color:floralwhite;
+    margin-top: 0;
+    margin-bottom: 10px;
+    
+}
+
+.thumbnail h3 {
+    
+    margin-top: 5px;
+    margin-bottom: 0
+}
+
+
+a:hover {
+    
+    text-decoration: none;
+}
+
+/* AD PAGE */
+
+.ad-info {
+    
+    background-color: #06D6A0;
+    color: floralwhite;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 10px;
+    
+}
+
+.ad-info h2 {
+    
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+.ad-info span, .ad-info p {
+    
+    padding: 5px;
+    margin: 15px 0;
+    
+}
+
+.ad-info p {
+    
+    margin-left: 5px;
+}
+
+.ad-info span{
+    
+   font-size: smaller;
+}
+
+
+.ad-info ul li {
+    
+    padding: 5px 0;
+}
+
+.ad-info ul li span {
+    
+    font-weight: 600;
+    min-width: 1
+}
+
+.ad-info ul {
+    
+    padding: 5px;
+    margin: 10px;
+    background-color:white;
+    color: #8A89C0;
+    border-radius: inherit;
+}
+
+.ad-info h4{
+    
+    margin-left: 10px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    
+}
+
+
+.add-comment .alert {
+    
+    margin-top: 10px;
+}
+
+
+
+.comment-box .lead {
+    
+    margin-bottom: 0;
+    background-color: #54c6eb;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 15px;
+    min-height: 40px;
+    max-width: fit-content
+}
+
+.comment-box .lead:before {
+    
+    content: "";
+    width: 0;
+    height: 0;
+    border-width: 15px;
+    border-style: solid;
+    border-color: transparent #54c6eb transparent transparent;
+    position: absolute;
+    left: -10px;
+
+    
+}
+
+.comment-box {
+    
+    margin-bottom: 15px;
+    padding: 5px;
+    
+}
+
+.comment-box img {
+    
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+
+/* FRAMEWORKS */
+
+.custom-hr {
+    
+    border-top: 1px solid #54c6eb
+}
+
+.row h3 a {
+    
+    color: floralwhite
+}
+
+.comment-date {
+    
+    font-size: x-small;
+    color: #AAA;
+}
+
+.comment-content {
+    
+    margin-top: 5px;
+    margin-bottom: 0;
+    padding-bottom: 0
+}
+
+.tag-link {
+    
+    background-color: #ccc;
+    color: whitesmoke;
+    padding: 3px;
+    margin: 2px;
+    border-radius: 3px
+}
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.btn-upload {
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+
+.bgimg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("/w3images/pizza.jpg");
+  min-height: 90%;
+}
+
+.activated {
+    
+    background-color: white;
+    color: darkcyan;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+.signup input, .login input{
+    
+    padding-left: 30px;
+}
+.signup i, .login i {
+    float: left;
+    height: 0;
+    position: relative;
+    top: -38px;
+    left: 5px;
+    color: grey;
+}
+
+.alert-username, .alert-password, .alert-fullname, .alert-title, .alert-contEmail, .alert-contMessage, .alert-adname, .alert-price, .alert-photo{
+    padding: 5px 10px;
+    display: none
+}

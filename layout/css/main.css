@@ -1,0 +1,55 @@
+.Subject, .Forum{
+    
+    background-image: url("../../uploads/site_images/subject1.jpeg");
+    background-repeat:space;
+    background-size:cover;
+    
+}
+
+.forum-head {
+
+    background-color: #008080b0;
+    margin-left: 25%;
+    padding: 8px 16px;
+    border-radius: 8px;
+    text-align: center;
+    max-width: fit-content
+}
+
+.Show {
+    
+    background-image: url("../../uploads/site_images/pexels-photo-926987.jpeg");
+    background-repeat:no-repeat;
+    background-size:cover;    
+    
+}
+
+
+.Main, .Login, .Store, .New {
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;    
+    background-image: url("../../uploads/site_images/bg6.jpeg");
+    font-family: 'Exo', sans-serif;    
+}
+
+
+.mapdiv{
+    width:75%;
+    height: 40%;
+    margin: auto;
+   /*margin-right: 92%;*/
+
+}
+
+.mapdiv path {
+    fill: #f1ebf3;
+    stroke: #38b9af;
+    stroke-width: 2px;
+    transition: fill 0.3s;
+}
+
+.mapdiv :hover {
+    fill:#38b9af;
+}

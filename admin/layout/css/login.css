@@ -1,0 +1,6 @@
+.alert-brand, .alert-photo, .alert-username, .alert-password, .alert-fullname, .alert-email {
+    
+    padding: 5px 10px;
+    display: none
+        
+}

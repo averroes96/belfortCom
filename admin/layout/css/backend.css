@@ -1,0 +1,701 @@
+/* Main rules */
+
+
+
+body{
+    
+    background-color: #F4F4F4;
+}
+
+.homepage {
+    
+    
+    background-image: url("../images/adult-analysis-business-1493375.jpg");
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+label {
+    
+    font-size: 90%;
+    color:floralwhite;
+    text-align: left;
+    
+}
+
+.form-horizontal .control-label {
+    
+    text-align: left;
+    margin-left: 10px;
+}
+
+select, option {
+    
+    cursor: pointer
+}
+
+
+.desc {
+    
+    min-height: 100px;
+    padding: 2px 2px;
+}
+
+.panel {
+    
+    border: none;
+    border-radius: 10px;
+    
+}
+
+/* HOMEPAGE */
+
+.home-stats .stats{
+    
+    border-radius: 5px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: floralwhite;
+    padding: 20px;
+    position: relative;
+    overflow: hidden
+}
+
+.home-stats .members {
+    
+    background-color: darkcyan
+}
+
+.home-stats .items {
+    
+    background-color: #06D6A0
+}
+
+.home-stats .comments {
+    
+    background-color: #54C6EB
+}
+
+.home-stats .stats i {
+    
+    position: absolute;
+    font-size: 80px;
+    top: 22px;
+    left: 26px;
+    color: floralwhite;
+}
+
+.home-stats .stats .info {
+    
+    float: right
+}
+
+.home-stats a {
+    
+    color: floralwhite;
+    text-decoration: none;
+}
+
+.home-stats .stats:hover{
+    
+    background-color: #8A89C0;
+    cursor: pointer
+    
+}
+
+.home-stats .stats span{
+    
+    display: block;
+    font-size: 50px;
+}
+
+.home-stats i {
+    
+    
+    
+}
+
+.latest{
+    
+    margin-top: 30px;
+}
+
+.panel-default > .panel-heading{
+    
+    font-weight:bold;
+    color: floralwhite !important;
+    background-color: #048A81;
+    
+}
+
+
+.latest-members{
+    
+    margin-bottom: 0;
+    border-radius: 10px;
+    
+}
+
+.latest .btn{
+    
+    padding: 2px 8px;
+    background-color: crimson;
+    border-color: firebrick
+    
+}
+
+.latest-members .btn-info{
+    
+    padding: 2px 8px;
+    margin-right: 5px
+}
+
+.latest-members .btn-success:hover{
+    
+    background-color: firebrick;
+}
+
+.latest-members li {
+    
+    overflow: hidden;
+    color: #31708f;
+    font-weight: bold;
+    
+}
+
+.latest .fa-minus, .latest .fa-plus {
+    
+    cursor: pointer
+}
+
+.row .panel-body .comment-box {
+    
+    margin: 5px 0 10px;
+    
+}
+
+.panel-body .comment-user {
+    
+    float:left;
+    margin-right: 20px;
+    width: 80px;
+    text-align: center;
+    position: relative;
+    top: 5px;
+    color: darkcyan;
+    font-size: large;
+    font-weight: 600;
+}
+
+.panel-body .comment-content{
+    
+    float: left;
+    background-color: #ddd;
+    width: calc(100% - 100px);
+    color: #555;
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: 700;
+    position: relative
+}
+
+.panel-body .comment-content:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: -28px;
+    top: 2px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15px;
+    border-color: transparent #ddd transparent transparent
+    
+}
+
+
+.row h3 {
+    font-size: larger;
+    font-weight: 700;
+    padding-bottom: 5px;
+    margin-left: 5px;
+    color: floralwhite;
+    display: inline
+    
+}
+
+    
+.row .fa-user {
+    
+    color: darkcyan
+}
+
+
+.row hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top: 2px dashed #eee;
+    
+}
+
+.unstyled-list:last-of-type~hr {
+    
+    display: none;
+}
+
+.items-heading {
+    
+    background-color:  #06D6A0 !important
+}
+
+.comments-heading {
+    
+    background-color:  #54C6EB !important
+}
+
+
+/* Login form */
+
+.login-form{
+    
+    background-image:url(../images/background-balance-business-583846.jpg);
+    
+}
+
+.login{
+    
+    width: 400px;
+    margin: 100px auto;
+    
+}
+
+.login .text-center{
+    
+    color:floralwhite;
+    font-weight: bolder;
+    
+}
+
+.login input{
+    margin-bottom: 10px;
+}
+
+.login .form-control{
+    
+    background-color:#f9f9f9;
+}
+
+.login .btn{
+    
+    background-color: #337ab7;
+}
+
+.navbar-header .navbar-brand:hover{
+    
+    color:dodgerblue;
+    
+}
+
+.navbar .collapse ul li a:hover{
+    
+    background-color:darkcyan;
+    color: floralwhite;
+    
+}
+
+.navbar .collapse ul li .dropdown-toggle:active{
+    
+    background-color:darkcyan;
+    color: floralwhite 
+    
+}
+
+.dropdown-menu {
+    
+    max-width: 180px;
+    padding: 0;
+    font-size: 1em;
+    border: none;
+    border-radius: 0;
+    background-color:dimgrey
+        
+    
+}
+
+.dropdown-menu > li > a {
+    
+    color: #FFF;
+    padding: 10px 15px;
+    
+}
+
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover{
+    
+    color: aqua;
+    background-color:#000
+    
+}
+
+.navbar-collapse .navbar-nav > li > a:hover{
+    
+    color:aqua;
+
+}
+
+/* Members page */
+
+h1{
+    font-size: 55px;
+    margin: 40px 0;
+    font-weight: bold;
+    color:#CDA2AB
+ 
+}
+
+.asterisk {
+    
+    font-size: 25px;
+    position: absolute;
+    right: 30px;
+    top: 8px;
+    color:crimson
+}
+
+.show-pass{
+    
+    position: absolute;
+    top: 17px;
+    right: -5px;
+    color:azure;
+    cursor:pointer
+}
+
+/* manage */
+
+.table-responsive{
+    background-color:#8A89C0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    
+    
+}
+
+.main-table{
+    
+   -webkit-box-shadow: 0 5px 10px #CCC;
+   -moz-box-shadow: 0 5px 10px #CCC;
+    box-shadow: 0 5px 10px #CCC;
+    
+    
+}
+
+.main-table td {
+    background-color: white;
+    vertical-align: middle !important;
+    font-weight: bold;
+    color:dimgrey
+    
+    
+}
+
+.main-table tr:first-child td {
+    
+    background-color:rgba(18, 43, 64, 1);
+    color: #FFF;
+    font-weight: bolder;
+    border-radius: 3px;
+
+}
+
+.main-table .btn{
+    
+    padding: 3px 10px;
+    margin: 5px;
+
+}
+
+.activate {
+    
+    margin-left: 5px
+}
+
+.main-table .btn .fa{
+    
+    margin: 2px;
+    position: relative;
+    right: 1px;
+    
+}
+
+.table-responsive .btn-primary{
+    
+    background-color: #048A81;
+    border-color: darkcyan ;
+    margin-top: 5px;
+    
+}
+
+.table-responsive .btn-primary:hover{
+    
+    background-color:darkcyan;
+    border-color:#048A81
+}
+
+
+/* edit */
+
+form{
+    
+    background-color:#8A89C0;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    
+}
+
+form .btn-primary{
+    
+    background-color: darkred
+    
+}
+
+form .btn-primary:hover{
+    
+    background-color: red
+}
+
+.main-table img {
+    
+    width: 50px;
+    height: 50px;
+    
+}
+
+ul{
+    
+    list-style-type: none
+}
+
+/* CATEGORIES PAGE */
+
+.category-settings {
+    
+    display: block;
+    
+}
+
+.categories .panel-body {
+    
+    padding: 0
+}
+
+.categories .cat {
+    
+    padding: 15px;
+    position: relative;
+    overflow: hidden
+}
+
+.categories .cat .hidden-buttons a{
+    
+    margin-right: 5px;
+    
+}
+
+.categories .cat:hover{
+    
+    background-color:lightgoldenrodyellow;
+    
+}
+
+.categories .cat:hover .hidden-buttons{
+    
+    right: 10px;
+   
+}
+
+.categories .cat .hidden-buttons{
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    position: absolute;
+    top: 15px;
+    right: -200px;
+
+}
+
+.categories .cat h3, .categories h2 {
+    
+    margin: 0;
+}
+
+.categories .cat h3{
+    
+    cursor: pointer;
+    font-weight: bold;
+    color:darkcyan;
+    padding-left:5px;
+    
+}
+
+.categories h2{
+
+    padding-bottom: 5px;
+    color: floralwhite
+    
+}
+.categories .cat .full-view p{
+    
+    margin: 10px 0;
+    color: #707070
+}
+
+.categories .cat .full-view {
+    
+    display: none
+}
+
+.categories hr {
+    margin: 3px;
+}
+
+.categories:last-of-type ~hr {
+    
+    display: none
+}
+
+.categories .cat .vis-status {
+    
+    background-color: crimson;
+    color: aliceblue;
+    padding: 5px 10px;
+    margin-right: 7px;
+    border-radius: 7px;
+    
+    }
+
+.categories .cat .com-status {
+    
+    background-color:fuchsia;
+    color: aliceblue;
+    padding: 5px 10px;
+    margin-right: 7px;
+    border-radius: 7px;
+    
+    }
+
+.categories .cat .ads-status {
+    
+    background-color:blueviolet;
+    color: aliceblue;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 7px;
+    
+    }
+
+.categories .order-type a {
+    
+    text-decoration: none;
+    color:lightblue;
+    background-color:beige;
+    padding: 5px;
+    border-radius: 5px;
+    
+    }
+
+
+.categories .order-type .active {
+    
+    background-color: lightcoral;
+    color:floralwhite;
+    
+    }
+    
+.categories .add-category {
+    
+    margin-top: 10px;
+    font-weight: 800;
+    padding: 10px
+    
+    }
+
+.categories .fa-sort{
+    
+    color:dimgrey
+        
+    }
+
+.categories .btn-primary {
+    
+    position: relative;
+    top: -2px;
+     
+}
+
+.categories h2 .fa-edit {
+    
+    position: relative;
+    top: -3px;
+    
+}
+
+.categories .sub-cats {
+    
+    margin: 0 0 0 40px;
+    
+}
+
+.categories .sub-cats li{
+    
+    margin-left: 20px;
+    font-size: large;
+    color: tomato
+}
+
+.categories .sub-cats li:before {
+    
+    content: "> ";
+    
+}
+
+.categories .sub-head {
+    
+    margin: 20px 0 10px 20px;
+    font-weight: bold;
+    color: teal;
+    
+}
+
+.categories .show-delete {
+    
+    display: none;
+    margin-left: 10px;
+}
+
+
+.Login {
+    
+    background-image: url("../../../uploads/site_images/login3.jpeg");
+    background-repeat: no-repeat;
+    background-size:cover;    
+    
+}
+
+/* Pagination links */
+.pagination li {
+  color: teal;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+    list-style: none;
+    cursor: pointer
+}
+
+/* Style the active/current link */
+.pagination li.active {
+  background-color: teal;
+  color: white;
+}
