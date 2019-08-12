@@ -8,5 +8,6 @@ Webiste for classified ads created using PHP, Mysql, CSS, HTML and JQuery
 
 # Setup :
 - Download or clone the repository
+- Place the extracted file into XAMMP's htdocs folder
 - Import  belfortCom.sql via phpMyAdmin
 - Install 'phpmailer' and 'maildev' for sending emails
