@@ -7,5 +7,6 @@ Webiste for classified ads created using PHP, Mysql, CSS, HTML and JQuery
 - maildev : https://github.com/djfarrelly/MailDev
 
 # Setup :
-- Download the files
+- Download or clone the repository
 - Import  belfortCom.sql via phpMyAdmin
+- Install 'phpmailer' and 'maildev' for sending emails
