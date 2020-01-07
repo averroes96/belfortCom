@@ -10,12 +10,6 @@
        $lang = "includes/languages/"; // languages directory
        $func = "includes/functions/"; // functions directory
 
-    use PHPMailer\PHPMailer\PHPMailer;
-    use PHPMailer\PHPMailer\Exception;
-    require 'C:\xampp\composer\vendor\autoload.php';
-
-    $mail = new PHPMailer(TRUE);
-
         if(isset($_COOKIE["language"]))
             $language = $_COOKIE["language"];
         else
